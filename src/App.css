@@ -1,40 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap');
+
 
 *{
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'outfit', sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
-/*
-html{
-  scroll-behavior: smooth;
-}
+ body{
+  background-color: black ;
+ }
 
-body{
-  margin: 0px !important;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-}
+ h1,h4,p,a{
+  color: white;
+  text-decoration: none;
+ }
 
+ ul{
+  list-style: none;
+ }
 
-::-webkit-scrollbar {
-    width: 4px;
-    height: 80px;
-  }
-  
+ .btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: yellow;
+  color: #222;
+  border: 1px solid #fff;
+  cursor: pointer;
+ }
 
-  ::-webkit-scrollbar-track {
-    background:#222A35;
-  }
-  
+ .btn-light{
+  background: transparent;
+  color: #fff;
+ }
 
-  ::-webkit-scrollbar-thumb {
-    background: #575C66;
-    border-radius: 6px;
-  }
-  
- 
-  ::-webkit-scrollbar-thumb:hover {
-    background: #626970;
-  }*/
-
+ .btn:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+ }
