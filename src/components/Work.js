@@ -1,4 +1,5 @@
 import './workcardstyles.css'
+import { Link } from 'react-router-dom'
 
 import Workcarddata from './Workcarddata'
 import React from 'react'
@@ -22,6 +23,10 @@ const Work = () => {
                     )
                 })}
             </div>
+            <div className='github-btn'>
+                <Link to="https://github.com/RJ2607?tab=repositories" className='git-hub'>
+                    Click here to see my other projects</Link>
+                </div>
         </div>
     )
 }
