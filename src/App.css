@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-.btn {
+.content .btn {
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -35,12 +35,12 @@ ul {
     cursor: pointer;
 }
 
-.btn-light {
+.content .btn-light {
     background: transparent;
     color: #fff;
 }
 
-.btn:hover {
+.content .btn:hover {
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transition: 0.3s;

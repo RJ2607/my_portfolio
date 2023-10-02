@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/navbar'
 import Backimg2 from '../components/Backimg2'
-import Wordcard from '../components/Wordcard'
+import Work from '../components/Work'
 
 
 const project = () => {
@@ -10,7 +10,7 @@ const project = () => {
         <div>
             <Navbar />
             <Backimg2 heading="PROJECTS" text="Some of my recent works"/>
-            <Wordcard />
+            <Work />
             <Footer />
             
         </div>
