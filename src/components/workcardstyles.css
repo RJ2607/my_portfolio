@@ -33,19 +33,21 @@
 }
 
 .pro-btn {
+    
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0 0 12rem;
+    padding: 0.5rem 0 0 11rem;
 }
 
 .pro-btn .btn {
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     padding: 0.5rem 1rem;
     background-color: rgb(255, 255, 0);
     color: black;
     font-weight: bold;
 }
 .pro-btn .btn:hover{
+    border: 1px solid #fff;
     background: rgba(255, 255, 255, 0.121);
     color: #fff;
     transition: 0.3s;
@@ -71,7 +73,8 @@ link{
 .git-hub:hover{
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
-    transition: 0.3s;}
+    transition: 0.3s;
+}
 
 @media screen and (max-width: 640px) {
     .project-container {

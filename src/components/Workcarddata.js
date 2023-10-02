@@ -5,7 +5,7 @@ import pro3 from '../assets/5.avif'
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: 'Guess Who',
+        title: 'Guess Who!?🤔',
         text: 'This is adaptation of board game in which you will have 3 chances to guess the correct person using the given characteristics. The game is made in python',
         view: 'https://github.com/RJ2607/Guess-who',
     },
