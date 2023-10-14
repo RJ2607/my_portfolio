@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import Footer from '../components/Footer'
+import Footer from '../components/footer'
 import Backimg2 from '../components/Backimg2'
 import Form from '../components/Form'
 

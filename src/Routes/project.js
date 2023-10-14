@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../components/Footer'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import Backimg2 from '../components/Backimg2'
 import Work from '../components/Work'
