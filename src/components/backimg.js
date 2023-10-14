@@ -14,7 +14,7 @@ const backimg = () => {
                 <p>HI, I'M A PROGRAMMER</p>
                 <h1>MY PORTFOLIO</h1>
                 <div>
-                    <Link to="/project" className="btn">Project</Link>
+                    <Link to="/project" className="btn">Project</Link> 
                     <Link to="/contact" className="btn btn-light">Contact</Link>
                 </div>
             </div>
