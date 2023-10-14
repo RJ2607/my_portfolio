@@ -12,7 +12,6 @@ const project = () => {
             <Backimg2 heading="PROJECTS" text="Some of my recent works🏆"/>
             <Work />
             <Footer />
-            
         </div>
     )
 }
